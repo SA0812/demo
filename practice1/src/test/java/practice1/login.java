@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class login {
 	
 	@Test
+	
 	@Parameters({"mail","pswrd"})
 	
 	public void pagelogin(String mail,String pswrd)
